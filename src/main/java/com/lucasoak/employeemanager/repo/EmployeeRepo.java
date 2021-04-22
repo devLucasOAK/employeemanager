@@ -8,7 +8,7 @@ import com.lucasoak.employeemanager.model.Employee;
 
 public interface EmployeeRepo extends JpaRepository<Employee, Long> {
 
-	void deleteEmployeeById(Long id);
+//	void deleteEmployeeById(Long id);
 
 	Optional<Employee> findEmployeeById(Long id);
 
